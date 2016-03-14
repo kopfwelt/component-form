@@ -1,27 +1,28 @@
 {
-  "name": "component-form",
-  "version": "0.0.1",
-  "description": "A webcomponent for forms (validation, ajax)",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "component-validation",
+  "version": "1.0.1",
+  "description": "Validation component",
   "repository": {
     "type": "git",
-    "url": "git+https://sinnwell@github.com/kopfwelt/component-form.git"
+    "url": "git+ssh://git@github.com/kopfwelt/component-validation.git"
   },
+  "author": {
+    "name": "Kimberly Gessner",
+    "email": "kimberly@kopfwelt.com"
+  },
+  "homepage": "http://code.kopfwelt.com/components/validation/",
   "keywords": [
-    "component",
+    "components",
     "es6",
-    "form",
-    "validation"
+    "validation",
+    "parsley"
   ],
-  "author": "Steve Sinnwell <steve@kopfwelt.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kopfwelt/component-form/issues"
+  "license": "NOLICENCE",
+  "engines": {
+    "node": ">=0.12.0"
   },
-  "homepage": "https://github.com/kopfwelt/component-form#readme",
-  "devDependencies": {
-    "parsley": "^0.1.0"
+  "devDependencies": {},
+  "dependencies": {
+    "parsleyjs": "^2.3.5"
   }
 }

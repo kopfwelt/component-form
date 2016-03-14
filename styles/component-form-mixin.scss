@@ -1,0 +1,15 @@
+@mixin validate-border {
+	&.parsley-error {
+		border-color: #d63534!important;
+	}
+}
+@mixin validate-text {
+	&.parsley-error {
+		color: #d63534!important;
+	}
+}
+@mixin validate-link {
+	&.parsley-error {
+		color: #d63534!important;
+	}
+}

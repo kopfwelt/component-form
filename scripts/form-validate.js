@@ -1,0 +1,5 @@
+class formValidated {
+	constructor {
+
+	}
+}
