@@ -1,0 +1,27 @@
+{
+  "name": "component-form",
+  "version": "0.0.1",
+  "description": "A webcomponent for forms (validation, ajax)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sinnwell@github.com/kopfwelt/component-form.git"
+  },
+  "keywords": [
+    "component",
+    "es6",
+    "form",
+    "validation"
+  ],
+  "author": "Steve Sinnwell <steve@kopfwelt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kopfwelt/component-form/issues"
+  },
+  "homepage": "https://github.com/kopfwelt/component-form#readme",
+  "devDependencies": {
+    "parsley": "^0.1.0"
+  }
+}
