@@ -6,6 +6,8 @@
     "type": "git",
     "url": "git+https://sinnwell@github.com/kopfwelt/component-form.git"
   },
+  "main": "scripts/form-validate.js",
+  "browser": "scripts/form-validate.js",
   "keywords": [
     "component",
     "es6",
