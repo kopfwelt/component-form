@@ -1,28 +1,30 @@
 {
-  "name": "component-validation",
-  "version": "1.0.1",
-  "description": "Validation component",
+  "name": "component-form",
+  "version": "0.0.1",
+  "description": "A webcomponent for forms (validation, ajax)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kopfwelt/component-validation.git"
+    "url": "git+https://sinnwell@github.com/kopfwelt/component-form.git"
   },
-  "author": {
-    "name": "Kimberly Gessner",
-    "email": "kimberly@kopfwelt.com"
-  },
-  "homepage": "http://code.kopfwelt.com/components/validation/",
   "keywords": [
-    "components",
+    "component",
     "es6",
-    "validation",
-    "parsley"
+    "form",
+    "validation"
   ],
-  "license": "NOLICENCE",
-  "engines": {
-    "node": ">=0.12.0"
+  "author": "Steve Sinnwell <steve@kopfwelt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kopfwelt/component-form/issues"
   },
-  "devDependencies": {},
-  "dependencies": {
-    "parsleyjs": "^2.3.5"
+  "homepage": "https://github.com/kopfwelt/component-form#readme",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^6.3.0",
+    "parsley": "^0.1.0"
   }
 }

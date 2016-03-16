@@ -1,5 +1,4 @@
-class formValidated {
-	constructor {
+// import parsley from 'parsley';
 
-	}
+class FormValidated {
 }
